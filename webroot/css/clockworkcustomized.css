@@ -1,0 +1,130 @@
+:root {
+    /* Base Colors */
+    /* --primary-color: #4FCDDB; */
+    /* --primary-color: #002E2E;
+
+    --background-color: #4FCDDB;;
+    --text-color: #343A40; */
+    --secondary-color:#95A2B4;
+      /* Primary text color */
+    --text-primary: #002E2E;
+
+    /* Secondary text color */
+    --text-secondary: #32757D;
+
+    /* Tertiary text color */
+    --text-tertiary: #629095;
+
+    /* Accent color */
+    --text-accent: #FF4500;
+
+    /* Error/Alert color */
+    --text-error: #FF0000;
+
+    /* Brand Colors */
+    --brand-primary: #00BCD4;
+    --brand-secondary: #005863;
+
+    /* Semantic Colors */
+    --success-color: #008C09;
+    --error-color: #C34343;
+    --warning-color:#FFB52E;
+
+
+    /* Grayscale Colors */
+    --black: #000000;
+    --white: #FFFFFF;
+    --gray: #95A2B4;
+    --light-gray: #f8f9fa;
+    --dark-gray: #343a40;
+
+    /* Functional Colors */
+    --link-color: #0089B3;
+    --disabled-color: #ABB9D1;
+  }
+  .bg-gradient-primary {
+    background-image: none !important; /* Remove Bootstrap's gradient background */
+    background-color: white !important; /* Set your custom background color */
+  }
+
+/* Text color classes */
+.text-primary {
+  color: var(--text-primary) !important;
+}
+
+.text-secondary {
+  color: var(--text-secondary) !important;
+}
+
+.text-tertiary {
+  color: var(--text-tertiary) !important;
+}
+
+.text-accent {
+  color: var(--text-accent) !important;
+}
+
+.text-error {
+  color: var(--text-error) !important;
+}
+
+  .text-grey {
+    color: var(--text-color) !important;
+  }
+  .text-warning {
+    color: var(--warning-color) !important;
+  }
+
+  .text-black {
+    color: var(--black) !important;
+  }
+
+  .text-white {
+    color: var(--white) !important;
+  }
+
+  .text-gray {
+    color: var(--gray) !important;
+  }
+  .text-success {
+    color: var(--gray) !important;
+  }
+
+  .text-light-gray {
+    color: var(--light-gray) !important;
+  }
+
+  .text-dark-gray {
+    color: var(--dark-gray) !important;
+  }
+
+  .button-primary {
+    background-color: var(--primary-color) !important;
+    color: var(--white) !important;
+  }
+
+  .button-secondary {
+    background-color: var(--secondary-color) !important;
+    color: var(--white) !important;
+  }
+
+  .button-success {
+    background-color: var(--success-color) !important;
+    color: var(--white) !important;
+  }
+
+  .button-error {
+    background-color: var(--error-color) !important;
+    color: var(--white) !important;
+  }
+
+  .button-warning {
+    background-color: var(--warning-color) !important;
+    color: var(--white) !important;
+  }
+
+  .button-disabled {
+    background-color: var(--disabled-color) !important;
+    color: var(--white) !important;
+    cursor: not-allowed;
+  }

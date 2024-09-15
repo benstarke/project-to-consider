@@ -1,0 +1,45 @@
+
+    /* Base styles for the table */
+#tblContain {
+    width: 100% !important;
+    border-collapse: separate !important;
+    border-spacing: 0 !important;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* subtle shadow for depth */
+    overflow: hidden; /* ensures no overflow */
+    border-radius: 20px; /* rounded corners for the table */
+}
+
+/* Header row styling */
+#tblContain thead,tfoot{
+    background-color: #CDE8E5 !important; /* light grey background */
+    color: #333 !important; /* dark text color for contrast */
+}
+
+#tblContain th {
+    padding: 15px 10px !important;
+    text-align: left !important;
+    border-bottom: 2px solid #ccc !important; /* solid line for the header */
+    font-weight: bold !important;
+}
+
+/* Body row styling */
+#tblContain tbody tr {
+    background-color: #fff !important; /* white background for rows */
+}
+
+#tblContain td {
+    padding: 12px 10px !important;
+    background-color: #EEF7FF !important; /* light grey background */
+    text-align: left !important;
+    border-bottom: 1px solid #eee !important; /* lighter line for separation */
+}
+
+/* Last cell in the row for rounded edges */
+#tblContain th:last-child, #tblContain td:last-child {
+    border-right: none !important;
+}
+
+/* First cell in the row for rounded edges */
+#tblContain th:first-child, #tblContain td:first-child {
+    border-left: none !important;
+}

@@ -1,0 +1,89 @@
+#helpicon {
+    z-index: 1000; /* This value may need to be higher depending on other elements on your page */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: inline-block;
+      border: 2px solid #000; /* Change the color as needed */
+      border-radius: 50%;
+      width: 50px; /* Adjust the size as needed */
+      height: 50px; /* Adjust the size as needed */
+      text-align: center;
+      line-height: 46px; /* Adjust line height to vertically center the icon, should be height - border * 2 */
+  
+  }
+.table-div { 
+    display: table; 
+    border-collapse: separate; 
+    border-spacing: 0;
+    font-family: 'Arial', sans-serif;
+    border-radius: 10px; /* Rounded corners for the table */
+    overflow: hidden; /* Ensures borders and shadows are contained within the rounded corners */
+}
+    .row-div { 
+        display: table-row; 
+    }
+
+    .cell-div { 
+        display: table-cell; 
+        padding: 12px 10px; /* Adjust padding to match your specific spacing needs */
+        border-bottom: 1px solid #dee2e6; /* Light gray border for cells */
+        text-align: center; 
+    }
+
+    .header-cell-div { 
+        background-color: #CDE8E5; /* Light grey background for headers */
+        color: #333; /* Dark text for contrast */
+        font-weight: bold;
+        border-bottom: 2px solid #ccc; /* Darker border under header */
+    }
+
+    .shift-cell { 
+        cursor: pointer; /* Indicates clickable items */
+        background-color: #E3FDFD; /* White background for body cells */
+        border-radius: 10px;
+    }
+    .box-cell { 
+        background-color: #E3FDFD; /* White background for body cells */
+    }
+    .individual-cell { 
+        background-color: #E3FDFD; /* White background for body cells */
+        border: 1px solid #000000; /* Black border, 1 pixel thick */
+        border-radius: 10px;
+        margin-bottom: 5px;
+    }
+    
+
+    .shift-cell:hover { 
+        background-color: #FFF2D7; /* Light grey background on hover */
+    }
+
+    /* No bottom border on the last row to clean up appearance */
+    .row-div:last-child .cell-div {
+        border-bottom: none;
+    }
+
+    /* Rounded corners for the first and last cell in the header and last row */
+    .row-div:first-child .cell-div:first-child {
+        border-top-left-radius: 10px;
+    }
+
+    .row-div:first-child .cell-div:last-child {
+        border-top-right-radius: 10px;
+    }
+
+    .row-div:last-child .cell-div:first-child {
+        border-bottom-left-radius: 10px;
+    }
+
+    .row-div:last-child .cell-div:last-child {
+        border-bottom-right-radius: 10px;
+    }
+    .fa-chevron-up, .fa-chevron-down {
+        transition: transform 0.3s;
+    }
+    
+    .task-button-container:hover .fa-chevron-down, .task-button-container:hover .fa-chevron-up {
+        transform: scale(1.1); /* Slightly enlarge the icon on hover for a visual effect */
+    }
+    

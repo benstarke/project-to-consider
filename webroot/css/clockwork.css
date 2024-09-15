@@ -1,0 +1,103 @@
+:root {
+
+              /* Primary text color */
+    --text-primary: #002E2E;
+
+    /* Secondary text color */
+    --text-secondary: #32757D;
+
+    /* Tertiary text color */
+    --text-tertiary: #629095;
+    --secondary-color:#95A2B4;
+    /* Accent color */
+    --text-accent: #FF4500;
+
+    /* Error/Alert color */
+    --text-error: #FF0000;
+    --success-color: #008C09;
+  }
+  
+  .bg-gradient-primary {
+    background-image: none !important; /* Remove Bootstrap's gradient background */
+    background-color: var(--primary-text-color) !important; /* Set your custom background color */
+  }
+/* text-colors.css */
+
+/* Text color classes */
+.text-primary {
+  color: var(--text-primary) !important;
+}
+
+.text-secondary {
+  color: var(--text-secondary) !important;
+}
+
+.text-tertiary {
+  color: var(--text-tertiary) !important;
+}
+
+.text-accent {
+  color: var(--text-accent) !important;
+}
+
+.text-error {
+  color: var(--text-error) !important;
+}
+  .text-grey {
+    color: var(--text-color) !important;
+  }
+
+  
+  .text-success {
+    color: var(--success-color) !important;
+  }
+  .text-active {
+    color: var(--active-text-color) !important;
+  }
+  
+  
+  .text-info {
+    color: var(--info-text-color) !important;
+  }
+  .text-content {
+    color: var(--content-text-color) !important;
+  }
+  .text-warning {
+    color: var(--warning-text-color) !important;
+  }
+  
+  .text-danger {
+    color: var(--danger-text-color) !important;
+  }
+  
+  .text-light {
+    color: var(--light-text-color) !important;
+  }
+  
+  .text-dark {
+    color: var(--dark-text-color) !important;
+  }
+/* colors.css */
+.btn-primary-custom {
+    color: var(--primary-text-color) !important;
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+  }
+  
+  .btn-primary-custom:hover {
+    background-color: var(--primary-hover-color) !important;
+    border-color: var(--primary-hover-color) !important;
+  }
+  
+  .btn-secondary-custom {
+    color: var(--secondary-text-color) !important;
+    background-color: var(--secondary-color) !important;
+    border-color: var(--secondary-color) !important;
+  }
+  
+  .btn-secondary-custom:hover {
+    background-color: var(--secondary-hover-color) !important;
+    border-color: var(--secondary-hover-color) !important;
+  }
+  /* Add more classes for other colors as needed */
+  

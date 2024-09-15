@@ -1,0 +1,114 @@
+:root {
+    --fc-small-font-size: .85em;
+    --fc-page-bg-color: #fff;
+    --fc-neutral-bg-color: rgba(208, 208, 208, 0.3);
+    --fc-neutral-text-color: #808080;
+    --fc-border-color: #ddd;
+  
+    --fc-button-text-color: #fff;
+    --fc-button-bg-color: #2C3E50;
+    --fc-button-border-color: #2C3E50;
+    --fc-button-hover-bg-color: #1e2b37;
+    --fc-button-hover-border-color: #1a252f;
+    --fc-button-active-bg-color: #1a252f;
+    --fc-button-active-border-color: #151e27;
+  
+    --fc-event-bg-color: #9fe2bf;
+    --fc-event-border-color: #9fe2bf;
+    --fc-event-text-color: #000000;
+    --fc-event-selected-overlay-color: rgba(0, 0, 0, 0.25);
+  
+    --fc-more-link-bg-color: #d0d0d0;
+    --fc-more-link-text-color: inherit;
+  
+    --fc-event-resizer-thickness: 8px;
+    --fc-event-resizer-dot-total-width: 8px;
+    --fc-event-resizer-dot-border-width: 1px;
+  
+    --fc-non-business-color: rgba(215, 215, 215, 0.3);
+    --fc-bg-event-color: rgb(143, 223, 130);
+    --fc-bg-event-opacity: 0.3;
+    --fc-highlight-color: rgba(188, 232, 241, 0.3);
+    --fc-today-bg-color: #f4e6da;
+    --fc-now-indicator-color: red;
+    --fc-event-title: 10px;
+    
+  }
+  .fc-event {
+    font-size: 16px !important;
+  }
+  .fc-today-button {
+    background-color: #28a745; /* Green background for 'today' */
+    color: #fff;
+    border-color: #28a745;
+}
+
+.fc-today-button:hover {
+    background-color: #1e7e34;
+    border-color: #1c7430;
+}
+
+.fc-day-grid-event .fc-content {
+    white-space: normal !important;
+    overflow: hidden !important;
+}
+.fc-today-button
+{
+  background-color: #17a09b !important;
+}
+.fc-prev-button
+{
+  background-color: #17a09b !important;
+}
+.fc-next-button
+{
+  background-color: #17a09b !important;
+}
+.fc-timeGridDay-button,
+.fc-dayGridMonth-button,
+.fc-timeGridWeek-button,
+.fc-dayGridWeek-button,
+.fc-listWeek-button{
+    background-color: #17a09b !important; /* Light teal background */
+}
+
+.fc-timeGridDay-button:active,
+.fc-dayGridMonth-button:active,
+.fc-timeGridWeek-button:active,
+.fc-timeGridDay-button:focus,
+.fc-dayGridMonth-button:focus,
+.fc-timeGridWeek-button:focus {
+    background-color: #17a09b !important; /* Darker teal when clicked or focused */
+}
+
+.fc-button-group .fc-button  {
+  color: black; /* Sets the text color to black */
+}
+.fc .fc-col-header-cell-cushion,
+.fc-list-day-text,
+.fc-list-day-side-text {
+  display: inline-block;
+  padding: 2px 4px;
+  color: black !important;       /* Ensures text color is black and overrides other styles */
+  text-decoration: none !important; /* Removes underline from the text and overrides other styles */
+}
+.fc-daygrid-day-number{
+  color: black !important;       /* Ensures text color is black and overrides other styles */
+  text-decoration: none !important; /* Removes underline from the text and overrides other styles */  
+}
+
+.fc-event-time,
+.fc-event-title{
+  color: rgb(21, 94, 71) !important;       /* Ensures text color is black and overrides other styles */
+  text-decoration: none !important; /* Removes underline from the text and overrides other styles */ 
+}
+
+.morning-dot{
+  border-color: #5CF230!important; 
+}
+.afternoon-dot{
+  border-color: #F1AF33!important; 
+}
+.night-dot{
+  border-color: #3384F1!important; 
+}
